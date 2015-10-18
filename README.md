@@ -7,7 +7,7 @@ This repository <i>is not</i> the original repository for this tool.
 * :x: The Source Code (not available)
 * :white_check_mark: [Executable for MayPar](http://costa.ls.fi.upm.es/costabs/mhp/download.php) (available)
 
-Internal Link for the executable
+Internal link for the executable
 * [Executable](https://github.com/SoftwareEngineeringToolDemos/FSE-2012-MayPar/tree/master/MayPar)
 
 This repository was constructed by [Kavit Mehta](https://github.com/Kavit900) of Team New Hanover under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
