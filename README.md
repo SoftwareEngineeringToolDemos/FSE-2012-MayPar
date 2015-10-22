@@ -1,7 +1,7 @@
 # FSE-2012-MayPar
 
 
-This repository contains information related to the tool MayPar presented at ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering . The tool was originally presented in this [paper](http://dl.acm.org/citation.cfm?id=2393611).
+This repository contains information related to the tool MayPar presented at ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering. The tool was originally presented in this [paper](http://dl.acm.org/citation.cfm?id=2393611).
 
 This repository <i>is not</i> the original repository for this tool. 
 * :x: The Source Code (not available)
