@@ -71,14 +71,7 @@ chmod +x MayPar
 ./MayPar main -i '../examples/DemoExample.abs' -v 3 -mode complete -l
 
 SHELL
-#config.vm.provision "shell" do |s|
-#s.inline = "sudo apt-get -y update"
-#s.inline = "sudo apt-get -y install openjdk-7-jre"
-#s.inline = 'sudo wget -O /home/vagrant/Desktop/LTSA-PCA.jar "https://dl.dropboxusercontent.com/u/996431/software/ltsa-pca/LTSA-PCA.jar"'
-#end
-#config.vm.provision :shell, :inline => "sudo apt-get -y update"
-#config.vm.provision :shell, :inline => "sudo apt-get -y install openjdk-7-jre"
-#config.vm.provision :shell, :inline => 'sudo wget -O /home/vagrant/Desktop/LTSA-PCA.jar "https://dl.dropboxusercontent.com/u/996431/software/ltsa-pca/LTSA-PCA.jar"'
+
 #
 # View the documentation for the provider you are using for more
 # information on available options.
