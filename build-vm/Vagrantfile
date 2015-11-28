@@ -48,6 +48,7 @@ config.vm.provider "virtualbox" do |vb|
 vb.gui = true
 # Customize the amount of memory on the VM:
 vb.memory = "2048"
+vb.name = "NewHanover-kmmehta-MayPar"
 end
 config.vm.provision "shell", inline: <<-SHELL
 gsettings set org.gnome.desktop.screensaver lock-enabled false
@@ -74,7 +75,8 @@ sudo apt-get install unzip
 
 sudo wget -O /home/vagrant/Desktop/desktop.tar.gz "https://github.com/SoftwareEngineeringToolDemos/FSE-2012-MayPar/raw/master/build-vm/desktop.tar.gz"
 tar zxvf /home/vagrant/Desktop/desktop.tar.gz -C /home/vagrant/Desktop/
-	sudo chmod a+x /home/vagrant/Desktop/MayPar/bin/MayPar
+	sudo chmod a+x /home/vagrant/Desktop/*
+	sudo chmod a+x /home/vagrant/Desktop/MayPar/*
 	rm /home/vagrant/Desktop/desktop.tar.gz
 	
 # Add tool as startup application
