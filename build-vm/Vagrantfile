@@ -64,11 +64,37 @@ sudo apt-get install unzip
 
 # tool download section
 
-sudo wget -O /home/vagrant/MayPar.zip "http://costa.ls.fi.upm.es/costabs/mhp/bin/MayPar_1.1_64.zip"
-unzip /home/vagrant/MayPar.zip -d /home/vagrant/MayPar
-cd /home/vagrant/MayPar/MayPar/bin
-chmod +x MayPar
-./MayPar main -i '../examples/DemoExample.abs' -v 3 -mode complete -l
+#sudo wget -O /home/vagrant/MayPar.zip "http://costa.ls.fi.upm.es/costabs/mhp/bin/MayPar_1.1_64.zip"
+#unzip /home/vagrant/MayPar.zip -d /home/vagrant/MayPar
+#cd /home/vagrant/MayPar/MayPar/bin
+#chmod +x MayPar
+#./MayPar main -i '../examples/DemoExample.abs' -v 3 -mode complete -l
+
+# Creating Desktop files
+
+sudo wget -O /home/vagrant/Desktop/desktop.tar.gz "https://github.com/SoftwareEngineeringToolDemos/ICSE-2014-LTSA_PCA/raw/master/build-vm/desktop.tar.gz"
+tar zxvf /home/vagrant/Desktop/desktop.tar.gz -C /home/vagrant/Desktop/
+	sudo chmod a+x /home/vagrant/Desktop/MayPar/bin/MayPar
+	rm /home/vagrant/Desktop/desktop.tar.gz
+	
+# Add tool as startup application
+sudo mkdir "/home/vagrant/.config/autostart"
+sudo cp Desktop/MayPar.desktop /home/vagrant/.config/autostart/MayPar.desktop
+
+# Remove unnecessary launcher applications
+	sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
+	sudo rm -f "/usr/share/applications/libreoffice-calc.desktop"
+	sudo rm -f "/usr/share/applications/libreoffice-writer.desktop"
+	sudo rm -f "/usr/share/applications/libreoffice-impress.desktop"
+	sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop"
+
+	# Disable screen lockout
+	mv /home/vagrant/Desktop/login_desktop.sh /home/vagrant/login_desktop.sh
+	sudo update-desktop-database
+	sudo cp /home/vagrant/Desktop/login_desktop.sh.desktop /etc/xdg/autostart/login_desktop.sh.desktop
+	rm /home/vagrant/Desktop/login_desktop.sh.desktop
+	# Reboot the VM
+	sudo reboot
 
 SHELL
 
