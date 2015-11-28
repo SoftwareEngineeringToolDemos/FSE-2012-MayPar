@@ -72,7 +72,7 @@ sudo apt-get install unzip
 
 # Creating Desktop files
 
-sudo wget -O /home/vagrant/Desktop/desktop.tar.gz "https://github.com/SoftwareEngineeringToolDemos/ICSE-2014-LTSA_PCA/raw/master/build-vm/desktop.tar.gz"
+sudo wget -O /home/vagrant/Desktop/desktop.tar.gz "https://github.com/SoftwareEngineeringToolDemos/FSE-2012-MayPar/raw/master/build-vm/desktop.tar.gz"
 tar zxvf /home/vagrant/Desktop/desktop.tar.gz -C /home/vagrant/Desktop/
 	sudo chmod a+x /home/vagrant/Desktop/MayPar/bin/MayPar
 	rm /home/vagrant/Desktop/desktop.tar.gz
