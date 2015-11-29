@@ -84,7 +84,9 @@ unzip /home/vagrant/Desktop/desktop.zip -d /home/vagrant/Desktop/
 	
 # Add tool as startup application
 sudo mkdir "/home/vagrant/.config/autostart"
-sudo cp Desktop/MayPar.desktop /home/vagrant/.config/autostart/MayPar.desktop
+sudo mv /home/vagrant/Desktop/MayPar.desktop /home/vagrant/.config/autostart/
+#sudo mv MayPar.desktop /home/vagrant/.config/autostart/MayPar.desktop
+#sudo cp Desktop/MayPar.desktop /home/vagrant/.config/autostart/MayPar.desktop
 
 # Remove unnecessary launcher applications
 	sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
