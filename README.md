@@ -14,5 +14,7 @@ This repository <i>is not</i> the original repository for this tool.
 Internal link for the executable
 * [Executable](https://github.com/SoftwareEngineeringToolDemos/FSE-2012-MayPar/blob/master/MayPar/bin/MayPar)
 
+Brief [video] (https://www.youtube.com/watch?v=H6y4EvQW3qs) of tool
+
 This repository was constructed by [Kavit Mehta](https://github.com/Kavit900) of Team New Hanover under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
