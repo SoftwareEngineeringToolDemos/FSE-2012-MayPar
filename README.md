@@ -6,6 +6,8 @@ This repository contains information related to the tool MayPar presented at ACM
 This repository <i>is not</i> the original repository for this tool. 
 * :x: The Source Code (not available)
 * :white_check_mark: [Executable for MayPar](http://costa.ls.fi.upm.es/costabs/mhp/download.php) (available)
+* :white_check_mark: [build-vm](https://github.com/SoftwareEngineeringToolDemos/FSE-2012-MayPar/tree/master/build-vm) folder which contains Vargrant script to load the tool 
+* :white_check_mark: [Virtual Machine containing tool]()
 
 Internal link for the executable
 * [Executable](https://github.com/SoftwareEngineeringToolDemos/FSE-2012-MayPar/blob/master/MayPar/bin/MayPar)
